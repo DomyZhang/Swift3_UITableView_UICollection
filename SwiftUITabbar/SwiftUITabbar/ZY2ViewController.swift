@@ -22,7 +22,10 @@ class ZY2ViewController: ZYRootViewController ,UITableViewDelegate, UITableViewD
         // Do any additional setup after loading the view.
         self.navigationItem.title = "tableViewSystem"
         initTbaleView()
+        
     }
+    
+    
     func initTbaleView() {
         tableView = UITableView.init(frame: self.view.bounds, style: .grouped)
         tableView.delegate = self
