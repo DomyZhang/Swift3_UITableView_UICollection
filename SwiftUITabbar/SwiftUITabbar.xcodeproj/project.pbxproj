@@ -7,17 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF11FB401E1DF37900503FC3 /* ZHYWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FB3F1E1DF37900503FC3 /* ZHYWebImage.swift */; };
-		FF11FB441E1E182A00503FC3 /* ZHYImageChache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FB431E1E182A00503FC3 /* ZHYImageChache.swift */; };
 		FF11FB9A1E1F637500503FC3 /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF11FB8B1E1F631600503FC3 /* HandyJSON.framework */; };
 		FF11FB9B1E1F637500503FC3 /* HandyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF11FB8B1E1F631600503FC3 /* HandyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF11FB9E1E1F637900503FC3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF11FB721E1F630100503FC3 /* Alamofire.framework */; };
 		FF11FB9F1E1F637900503FC3 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF11FB721E1F630100503FC3 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FF1A66091E16636B0013AFC9 /* login_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1A66071E16636B0013AFC9 /* login_back@2x.png */; };
-		FF1A660A1E16636B0013AFC9 /* navigationBar_backgroundColor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF1A66081E16636B0013AFC9 /* navigationBar_backgroundColor@2x.png */; };
-		FF5730781E1CF5630099C247 /* httpUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5730771E1CF5630099C247 /* httpUrl.swift */; };
-		FF57307B1E1CF5A50099C247 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF57307A1E1CF5A50099C247 /* SwiftyJSON.swift */; };
-		FF57307D1E1D04310099C247 /* ZYModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF57307C1E1D04310099C247 /* ZYModel.swift */; };
+		FF11FBAA1E1F685E00503FC3 /* ZY1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FBA51E1F685E00503FC3 /* ZY1ViewController.swift */; };
+		FF11FBAB1E1F685E00503FC3 /* ZY2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FBA61E1F685E00503FC3 /* ZY2ViewController.swift */; };
+		FF11FBAC1E1F685E00503FC3 /* ZY3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FBA71E1F685E00503FC3 /* ZY3ViewController.swift */; };
+		FF11FBAD1E1F685E00503FC3 /* ZYOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FBA81E1F685E00503FC3 /* ZYOneViewController.swift */; };
+		FF11FBAE1E1F685E00503FC3 /* ZYRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FBA91E1F685E00503FC3 /* ZYRootViewController.swift */; };
+		FF11FBC01E1F688B00503FC3 /* ZHYImageChache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FBBE1E1F688B00503FC3 /* ZHYImageChache.swift */; };
+		FF11FBC11E1F688B00503FC3 /* ZHYWebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FBBF1E1F688B00503FC3 /* ZHYWebImage.swift */; };
+		FF11FBCE1E1F690600503FC3 /* login_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF11FBC31E1F690600503FC3 /* login_back@2x.png */; };
+		FF11FBCF1E1F690600503FC3 /* navigationBar_backgroundColor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF11FBC41E1F690600503FC3 /* navigationBar_backgroundColor@2x.png */; };
+		FF11FBD01E1F690600503FC3 /* tabbarMy_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF11FBC51E1F690600503FC3 /* tabbarMy_img@2x.png */; };
+		FF11FBD11E1F690600503FC3 /* tabbarMy_img_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF11FBC61E1F690600503FC3 /* tabbarMy_img_selected@2x.png */; };
+		FF11FBD21E1F690600503FC3 /* ZY1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FBC81E1F690600503FC3 /* ZY1Cell.swift */; };
+		FF11FBD31E1F690600503FC3 /* ZY1Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF11FBC91E1F690600503FC3 /* ZY1Cell.xib */; };
+		FF11FBD41E1F690600503FC3 /* httpUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FBCB1E1F690600503FC3 /* httpUrl.swift */; };
+		FF11FBD51E1F690600503FC3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FBCC1E1F690600503FC3 /* SwiftyJSON.swift */; };
+		FF11FBD61E1F690600503FC3 /* ZYModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF11FBCD1E1F690600503FC3 /* ZYModel.swift */; };
 		FFBFC2EC1E162D96004BF133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFC2EB1E162D96004BF133 /* AppDelegate.swift */; };
 		FFBFC2EE1E162D96004BF133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFC2ED1E162D96004BF133 /* ViewController.swift */; };
 		FFBFC2F11E162D96004BF133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBFC2EF1E162D96004BF133 /* Main.storyboard */; };
@@ -25,15 +34,6 @@
 		FFBFC2F61E162D96004BF133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBFC2F41E162D96004BF133 /* LaunchScreen.storyboard */; };
 		FFBFC3011E162D96004BF133 /* SwiftUITabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFC3001E162D96004BF133 /* SwiftUITabbarTests.swift */; };
 		FFBFC30C1E162D96004BF133 /* SwiftUITabbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFC30B1E162D96004BF133 /* SwiftUITabbarUITests.swift */; };
-		FFBFC31A1E162DAF004BF133 /* ZYRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFC3191E162DAF004BF133 /* ZYRootViewController.swift */; };
-		FFBFC31C1E162EF8004BF133 /* ZYOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFC31B1E162EF8004BF133 /* ZYOneViewController.swift */; };
-		FFBFC31E1E16308A004BF133 /* ZY1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFC31D1E16308A004BF133 /* ZY1ViewController.swift */; };
-		FFBFC3201E163096004BF133 /* ZY2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFC31F1E163096004BF133 /* ZY2ViewController.swift */; };
-		FFBFC3221E16309F004BF133 /* ZY3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFC3211E16309F004BF133 /* ZY3ViewController.swift */; };
-		FFBFC3261E16375D004BF133 /* tabbarMy_img_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBFC3241E16375D004BF133 /* tabbarMy_img_selected@2x.png */; };
-		FFBFC3271E16375D004BF133 /* tabbarMy_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFBFC3251E16375D004BF133 /* tabbarMy_img@2x.png */; };
-		FFBFC32C1E163E45004BF133 /* ZY1Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBFC32A1E163E45004BF133 /* ZY1Cell.swift */; };
-		FFBFC32D1E163E45004BF133 /* ZY1Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFBFC32B1E163E45004BF133 /* ZY1Cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -188,16 +188,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FF11FB3F1E1DF37900503FC3 /* ZHYWebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHYWebImage.swift; sourceTree = "<group>"; };
-		FF11FB431E1E182A00503FC3 /* ZHYImageChache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHYImageChache.swift; sourceTree = "<group>"; };
 		FF11FB551E1F323E00503FC3 /* SwiftUITabbar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUITabbar.entitlements; sourceTree = "<group>"; };
 		FF11FB661E1F630000503FC3 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../Downloads/Alamofire-master-2/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		FF11FB7F1E1F631600503FC3 /* HandyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HandyJSON.xcodeproj; path = "../../../Downloads/HandyJSON-master/HandyJSON.xcodeproj"; sourceTree = "<group>"; };
-		FF1A66071E16636B0013AFC9 /* login_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_back@2x.png"; sourceTree = "<group>"; };
-		FF1A66081E16636B0013AFC9 /* navigationBar_backgroundColor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationBar_backgroundColor@2x.png"; sourceTree = "<group>"; };
-		FF5730771E1CF5630099C247 /* httpUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = httpUrl.swift; sourceTree = "<group>"; };
-		FF57307A1E1CF5A50099C247 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
-		FF57307C1E1D04310099C247 /* ZYModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYModel.swift; sourceTree = "<group>"; };
+		FF11FBA51E1F685E00503FC3 /* ZY1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZY1ViewController.swift; sourceTree = "<group>"; };
+		FF11FBA61E1F685E00503FC3 /* ZY2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZY2ViewController.swift; sourceTree = "<group>"; };
+		FF11FBA71E1F685E00503FC3 /* ZY3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZY3ViewController.swift; sourceTree = "<group>"; };
+		FF11FBA81E1F685E00503FC3 /* ZYOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYOneViewController.swift; sourceTree = "<group>"; };
+		FF11FBA91E1F685E00503FC3 /* ZYRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYRootViewController.swift; sourceTree = "<group>"; };
+		FF11FBBE1E1F688B00503FC3 /* ZHYImageChache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHYImageChache.swift; sourceTree = "<group>"; };
+		FF11FBBF1E1F688B00503FC3 /* ZHYWebImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHYWebImage.swift; sourceTree = "<group>"; };
+		FF11FBC31E1F690600503FC3 /* login_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_back@2x.png"; sourceTree = "<group>"; };
+		FF11FBC41E1F690600503FC3 /* navigationBar_backgroundColor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationBar_backgroundColor@2x.png"; sourceTree = "<group>"; };
+		FF11FBC51E1F690600503FC3 /* tabbarMy_img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarMy_img@2x.png"; sourceTree = "<group>"; };
+		FF11FBC61E1F690600503FC3 /* tabbarMy_img_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarMy_img_selected@2x.png"; sourceTree = "<group>"; };
+		FF11FBC81E1F690600503FC3 /* ZY1Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZY1Cell.swift; sourceTree = "<group>"; };
+		FF11FBC91E1F690600503FC3 /* ZY1Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZY1Cell.xib; sourceTree = "<group>"; };
+		FF11FBCB1E1F690600503FC3 /* httpUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = httpUrl.swift; sourceTree = "<group>"; };
+		FF11FBCC1E1F690600503FC3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		FF11FBCD1E1F690600503FC3 /* ZYModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYModel.swift; sourceTree = "<group>"; };
 		FFBFC2E81E162D96004BF133 /* SwiftUITabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBFC2EB1E162D96004BF133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFBFC2ED1E162D96004BF133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -211,15 +220,6 @@
 		FFBFC3071E162D96004BF133 /* SwiftUITabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFBFC30B1E162D96004BF133 /* SwiftUITabbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITabbarUITests.swift; sourceTree = "<group>"; };
 		FFBFC30D1E162D96004BF133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FFBFC3191E162DAF004BF133 /* ZYRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYRootViewController.swift; sourceTree = "<group>"; };
-		FFBFC31B1E162EF8004BF133 /* ZYOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYOneViewController.swift; sourceTree = "<group>"; };
-		FFBFC31D1E16308A004BF133 /* ZY1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZY1ViewController.swift; sourceTree = "<group>"; };
-		FFBFC31F1E163096004BF133 /* ZY2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZY2ViewController.swift; sourceTree = "<group>"; };
-		FFBFC3211E16309F004BF133 /* ZY3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZY3ViewController.swift; sourceTree = "<group>"; };
-		FFBFC3241E16375D004BF133 /* tabbarMy_img_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarMy_img_selected@2x.png"; sourceTree = "<group>"; };
-		FFBFC3251E16375D004BF133 /* tabbarMy_img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbarMy_img@2x.png"; sourceTree = "<group>"; };
-		FFBFC32A1E163E45004BF133 /* ZY1Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZY1Cell.swift; sourceTree = "<group>"; };
-		FFBFC32B1E163E45004BF133 /* ZY1Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZY1Cell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,15 +249,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FF11FB2C1E1DDAC200503FC3 /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				FF11FB3F1E1DF37900503FC3 /* ZHYWebImage.swift */,
-				FF11FB431E1E182A00503FC3 /* ZHYImageChache.swift */,
-			);
-			name = Class;
-			sourceTree = "<group>";
-		};
 		FF11FB671E1F630000503FC3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,14 +278,55 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF5730791E1CF5670099C247 /* Common */ = {
+		FF11FBA41E1F685E00503FC3 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				FF57307A1E1CF5A50099C247 /* SwiftyJSON.swift */,
-				FF5730771E1CF5630099C247 /* httpUrl.swift */,
-				FF57307C1E1D04310099C247 /* ZYModel.swift */,
+				FF11FBA51E1F685E00503FC3 /* ZY1ViewController.swift */,
+				FF11FBA61E1F685E00503FC3 /* ZY2ViewController.swift */,
+				FF11FBA71E1F685E00503FC3 /* ZY3ViewController.swift */,
+				FF11FBA81E1F685E00503FC3 /* ZYOneViewController.swift */,
+				FF11FBA91E1F685E00503FC3 /* ZYRootViewController.swift */,
 			);
-			name = Common;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FF11FBBD1E1F688B00503FC3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FF11FBBE1E1F688B00503FC3 /* ZHYImageChache.swift */,
+				FF11FBBF1E1F688B00503FC3 /* ZHYWebImage.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FF11FBC21E1F690600503FC3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FF11FBC31E1F690600503FC3 /* login_back@2x.png */,
+				FF11FBC41E1F690600503FC3 /* navigationBar_backgroundColor@2x.png */,
+				FF11FBC51E1F690600503FC3 /* tabbarMy_img@2x.png */,
+				FF11FBC61E1F690600503FC3 /* tabbarMy_img_selected@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FF11FBC71E1F690600503FC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF11FBC81E1F690600503FC3 /* ZY1Cell.swift */,
+				FF11FBC91E1F690600503FC3 /* ZY1Cell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF11FBCA1E1F690600503FC3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FF11FBCB1E1F690600503FC3 /* httpUrl.swift */,
+				FF11FBCC1E1F690600503FC3 /* SwiftyJSON.swift */,
+				FF11FBCD1E1F690600503FC3 /* ZYModel.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		FFBFC2DF1E162D95004BF133 = {
@@ -323,11 +355,11 @@
 			isa = PBXGroup;
 			children = (
 				FF11FB551E1F323E00503FC3 /* SwiftUITabbar.entitlements */,
-				FFBFC3231E1630A8004BF133 /* ViewControllers */,
-				FF11FB2C1E1DDAC200503FC3 /* Class */,
-				FF5730791E1CF5670099C247 /* Common */,
-				FFBFC3291E163E18004BF133 /* View */,
-				FFBFC3281E163760004BF133 /* Images */,
+				FF11FBC21E1F690600503FC3 /* Images */,
+				FF11FBC71E1F690600503FC3 /* View */,
+				FF11FBCA1E1F690600503FC3 /* Common */,
+				FF11FBBD1E1F688B00503FC3 /* Class */,
+				FF11FBA41E1F685E00503FC3 /* ViewControllers */,
 				FFBFC2EB1E162D96004BF133 /* AppDelegate.swift */,
 				FFBFC2ED1E162D96004BF133 /* ViewController.swift */,
 				FFBFC2EF1E162D96004BF133 /* Main.storyboard */,
@@ -354,38 +386,6 @@
 				FFBFC30D1E162D96004BF133 /* Info.plist */,
 			);
 			path = SwiftUITabbarUITests;
-			sourceTree = "<group>";
-		};
-		FFBFC3231E1630A8004BF133 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				FFBFC31B1E162EF8004BF133 /* ZYOneViewController.swift */,
-				FFBFC3191E162DAF004BF133 /* ZYRootViewController.swift */,
-				FFBFC31D1E16308A004BF133 /* ZY1ViewController.swift */,
-				FFBFC31F1E163096004BF133 /* ZY2ViewController.swift */,
-				FFBFC3211E16309F004BF133 /* ZY3ViewController.swift */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		FFBFC3281E163760004BF133 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				FFBFC3241E16375D004BF133 /* tabbarMy_img_selected@2x.png */,
-				FFBFC3251E16375D004BF133 /* tabbarMy_img@2x.png */,
-				FF1A66071E16636B0013AFC9 /* login_back@2x.png */,
-				FF1A66081E16636B0013AFC9 /* navigationBar_backgroundColor@2x.png */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
-		FFBFC3291E163E18004BF133 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FFBFC32A1E163E45004BF133 /* ZY1Cell.swift */,
-				FFBFC32B1E163E45004BF133 /* ZY1Cell.xib */,
-			);
-			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -622,14 +622,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFBFC32D1E163E45004BF133 /* ZY1Cell.xib in Resources */,
-				FF1A66091E16636B0013AFC9 /* login_back@2x.png in Resources */,
+				FF11FBCE1E1F690600503FC3 /* login_back@2x.png in Resources */,
+				FF11FBD01E1F690600503FC3 /* tabbarMy_img@2x.png in Resources */,
 				FFBFC2F61E162D96004BF133 /* LaunchScreen.storyboard in Resources */,
 				FFBFC2F31E162D96004BF133 /* Assets.xcassets in Resources */,
-				FF1A660A1E16636B0013AFC9 /* navigationBar_backgroundColor@2x.png in Resources */,
-				FFBFC3271E16375D004BF133 /* tabbarMy_img@2x.png in Resources */,
+				FF11FBD11E1F690600503FC3 /* tabbarMy_img_selected@2x.png in Resources */,
 				FFBFC2F11E162D96004BF133 /* Main.storyboard in Resources */,
-				FFBFC3261E16375D004BF133 /* tabbarMy_img_selected@2x.png in Resources */,
+				FF11FBCF1E1F690600503FC3 /* navigationBar_backgroundColor@2x.png in Resources */,
+				FF11FBD31E1F690600503FC3 /* ZY1Cell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,19 +654,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFBFC31C1E162EF8004BF133 /* ZYOneViewController.swift in Sources */,
-				FFBFC31A1E162DAF004BF133 /* ZYRootViewController.swift in Sources */,
-				FF11FB441E1E182A00503FC3 /* ZHYImageChache.swift in Sources */,
-				FFBFC3201E163096004BF133 /* ZY2ViewController.swift in Sources */,
-				FF57307B1E1CF5A50099C247 /* SwiftyJSON.swift in Sources */,
-				FFBFC3221E16309F004BF133 /* ZY3ViewController.swift in Sources */,
-				FFBFC32C1E163E45004BF133 /* ZY1Cell.swift in Sources */,
-				FF57307D1E1D04310099C247 /* ZYModel.swift in Sources */,
-				FF11FB401E1DF37900503FC3 /* ZHYWebImage.swift in Sources */,
-				FF5730781E1CF5630099C247 /* httpUrl.swift in Sources */,
-				FFBFC31E1E16308A004BF133 /* ZY1ViewController.swift in Sources */,
+				FF11FBAD1E1F685E00503FC3 /* ZYOneViewController.swift in Sources */,
+				FF11FBAC1E1F685E00503FC3 /* ZY3ViewController.swift in Sources */,
+				FF11FBC11E1F688B00503FC3 /* ZHYWebImage.swift in Sources */,
+				FF11FBAE1E1F685E00503FC3 /* ZYRootViewController.swift in Sources */,
+				FF11FBD61E1F690600503FC3 /* ZYModel.swift in Sources */,
+				FF11FBC01E1F688B00503FC3 /* ZHYImageChache.swift in Sources */,
+				FF11FBD41E1F690600503FC3 /* httpUrl.swift in Sources */,
+				FF11FBD21E1F690600503FC3 /* ZY1Cell.swift in Sources */,
+				FF11FBD51E1F690600503FC3 /* SwiftyJSON.swift in Sources */,
+				FF11FBAB1E1F685E00503FC3 /* ZY2ViewController.swift in Sources */,
 				FFBFC2EE1E162D96004BF133 /* ViewController.swift in Sources */,
 				FFBFC2EC1E162D96004BF133 /* AppDelegate.swift in Sources */,
+				FF11FBAA1E1F685E00503FC3 /* ZY1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
