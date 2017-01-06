@@ -49,5 +49,19 @@ class ZHYImageChache: NSObject {
         let cacheFile = cachePath+"/image"
         return cacheFile
     }
+    
+    // 清缓存
+    class func clearImagesCache() {
+        let cachePath = NSHomeDirectory() + "/Library/Caches/ZYImageCache/"
+        if FileManager.default.fileExists(atPath: cachePath) {
+            do {
+                try FileManager.default.removeItem(atPath: cachePath)
+            } catch {
+                print(error)
+            }
+        }
+        
+    }
+
 
 }

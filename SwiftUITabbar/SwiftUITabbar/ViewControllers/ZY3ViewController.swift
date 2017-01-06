@@ -64,6 +64,9 @@ class ZY3ViewController: ZYRootViewController ,UICollectionViewDelegate ,UIColle
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("item \(indexPath.item) 被点击")
+        
+        // 点击清除本地 图片缓存
+        ZHYImageChache.clearImagesCache()
     }
     
 
