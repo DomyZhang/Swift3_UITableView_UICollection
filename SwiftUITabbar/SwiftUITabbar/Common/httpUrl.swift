@@ -8,6 +8,6 @@
 
 import Foundation
 
-let Service = "https://guorangongshe.com"
+let Service = "https://xxxxxx.com"
 
 let ZYRequestPostOne = Service + "/api/UserPlan/Plan"
